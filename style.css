@@ -264,14 +264,24 @@ section.privacy  p {
     margin-top: 32px;
 }
 
-footer {
+section.privacy .wrapper-image {
+    width: 100%;
+    display: flex;
     margin-top: 64px;
-    text-align: center;
-    padding: 10px 0;
+}
+
+section.privacy .wrapper-image img {
+    width: 80%;
+    margin: auto;
+}
+
+section.privacy .title {
+    margin-top: 24px;
+    color: #cae5ff;
 }
 
 .datasheet {
-    margin-top: 64px;
+    margin-top: 48px;
     color: #acacac;
 }
 
@@ -281,6 +291,25 @@ table {
 
 .datasheet td::before {
     content: '- ';
+}
+
+section.resistence {
+    width: 100%;
+    margin-top: 64px;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to top, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to top, #24243e, #302b63, #0f0c29); 
+    padding: 48px 0;
+}
+
+section.resistence .image-iphones {
+    width: 100%;
+    display: flex;
+}
+
+section.resistence .image-iphones img {
+    width: 90%;
+    margin: auto;
 }
 
 footer a {
